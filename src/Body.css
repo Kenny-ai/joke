@@ -55,7 +55,7 @@
 
 .icons {
   margin-right: 10px;
-  transition: transform .2s;
+  transition: transform .2s, color 1s;
 }
 
 .icons:hover {
@@ -85,3 +85,8 @@
 .get-joke:hover {
   transform: scale(1.1);
 }
+
+/* a {
+  text-decoration: none;
+  transition: all 1s;
+} */

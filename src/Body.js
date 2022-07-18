@@ -49,9 +49,7 @@ const Body = () => {
   }, []);
 
   const buttonStyles = {
-    // transitionProperty: "backgroundColor",
     backgroundColor: color,
-    // transition: "0.8s ease-in"
   }
 
   return (
@@ -78,15 +76,15 @@ const Body = () => {
           <p className='joke'>{jokes ? jokes : "Oops! No internet connection" /*"I've got an addiction to brake fluids...I can stop whenever I want"*/}</p>
           <div className="bottom">
             <div className="contact">
-              <div className="icons">
+              <a href='https://github.com/Kenny-ai' target='_blank' rel='noreferrer' className="icons" style={{ color: color }}>
                 <GitHubIcon fontSize="large" />
-              </div>
-              <div className="icons">
+              </a>
+              <a href='https://www.linkedin.com/in/kenny-soyoye/' target='_blank' rel='noreferrer' className="icons" style={{ color: color }}>
                 <LinkedInIcon fontSize="large" />
-              </div>
-              <div className="icons">
+              </a>
+              <a href='https://twitter.com/kenybolu' target='_blank' rel='noreferrer' className="icons" style={{ color: color }}>
                 <TwitterIcon fontSize="large" />
-              </div>
+              </a>
 
             </div>
             <button className="get-joke btn-default"
