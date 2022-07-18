@@ -87,7 +87,7 @@ const Body = () => {
               </a>
 
             </div>
-            <button className="get-joke btn-default"
+            <button className="get-joke"
               onClick={getJoke}
               style={buttonStyles}>
               New joke

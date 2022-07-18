@@ -10,7 +10,7 @@
 .header {
   text-align: center;
   color: white;
-  font-family: "Shizuru", cursive;
+  font-family: "Shizuru", serif;
   display: grid;
   place-items: center;
   flex: 0.1;
