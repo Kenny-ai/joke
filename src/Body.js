@@ -41,7 +41,7 @@ const Body = () => {
       setJokes(response.data.joke)
     });
     setColor(generateRand());
-    console.log(generateRand());
+    // console.log(generateRand());
   };
 
   useEffect(() => {
